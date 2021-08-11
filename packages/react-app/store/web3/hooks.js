@@ -29,9 +29,8 @@ export const useWalletConnect = () => {
       }
     })
     const newProvider = await web3Modal.connect()
-    window.web3.setProvider(newProvider)
 
-    const provider = new Web3Provider(window.web3.currentProvider)
+    const provider = new Web3Provider(newProvider)
     const accounts = await provider.listAccounts()
     const address = accounts[0]
     dispatch(connectWallet({ address }))
