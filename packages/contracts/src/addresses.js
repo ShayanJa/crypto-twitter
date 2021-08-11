@@ -2,7 +2,7 @@
 // Goerli, Kovan, Rinkeby and Ropsten. Replace it with your smart contracts.
 const addresses = {
   ceaErc20: "0xc1C0472c0C80bCcDC7F5D01A376Bd97a734B8815",
-  tweetFactory: "0x31763F3CA7fe5CE7968651e21Af69B8b3dD64c7e"
+  tweetFactory: "0x4ed03cF8dc34620cfAcC71D861E02D8652d10F14"
 };
 
 export default addresses;
