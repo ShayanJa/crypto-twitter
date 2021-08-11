@@ -29,7 +29,6 @@ export const useWalletConnect = () => {
       }
     })
     const newProvider = await web3Modal.connect()
-
     const provider = new Web3Provider(newProvider)
     const accounts = await provider.listAccounts()
     const address = accounts[0]
